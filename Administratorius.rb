@@ -1,0 +1,6 @@
+class Administratorius
+
+
+
+  
+end
