@@ -5,9 +5,9 @@ class Kosmonautas
     @pavarde = pavarde
     @gim_data = gim_data
     @lytis = lytis
+    @vieta = 'Else'
   end
-  attr_reader :vardas, :pavarde, :gim_data, :lytis
-
+  attr_reader :vardas, :pavarde, :gim_data, :lytis, :vieta
   
 
 

@@ -24,6 +24,18 @@ describe Kosmonautas do
     @kosmonautas.should respond_to(:lytis)
   end
 
+   it "should be vyras arba moteris" do
+    @kosmonautas.lytis.should match(/Vyras|Moteris/i)
+  end
+
+  it "should have vieta" do
+    @kosmonautas.should respond_to(:vieta)
+  end
+
+  it "should be centre, erdvelaivyje, kosmineje stotyje arba else" do
+    @kosmonautas.vieta.should match(/Centras|Erdvelaivis|Stotis|Else/i)
+  end
+
 
   
 end

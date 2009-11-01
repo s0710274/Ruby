@@ -20,6 +20,18 @@ describe Erdvelaivis do
   it "should have greitis" do
     @erdvelaivis.should respond_to(:greitis)
   end
+
+  it "should have kosmonautu skaicius" do
+    @erdvelaivis.should respond_to(:kosmonautu_sk)
+  end
+
+  it "should be zemeje, pakiles, skrenda arba else" do
+    @erdvelaivis.busena.should match(/Zemeje|Pakiles|Skrenda|Else/i)
+  end
+
   
+
+
+
 end
 
