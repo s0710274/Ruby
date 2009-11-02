@@ -19,6 +19,15 @@ describe Centras do
   it "should have ligoniu skaicius" do
     @centras.should respond_to(:ligoniu_sk)
   end
+
+  it "should have id" do
+    @centras.should respond_to(:id)
+  end
+
+  it "should have unique ID" do
+    centras2 = Centras.new('Ligonine', 10, 5)
+    @centras.id.should_not == centras2.id
+  end
   
 
 

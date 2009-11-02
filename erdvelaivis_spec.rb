@@ -29,6 +29,11 @@ describe Erdvelaivis do
     @erdvelaivis.busena.should match(/Zemeje|Pakiles|Skrenda|Else/i)
   end
 
+  it "should have unique id" do
+    @erdvelaivis.should respond_to(:id)
+    erdvelaivis2 = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    @erdvelaivis.id.should_not == erdvelaivis2.id
+  end
   
 
 

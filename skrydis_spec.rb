@@ -58,6 +58,11 @@ describe Skrydis do
     @skrydis.should respond_to(:naujas_nusileidimas)
   end
 
+  it "should have unique id" do
+    @skrydis.should respond_to(:id)
+    skrydis = Skrydis.new()
+    @skrydis.id.should_not == skrydis.id
+  end
 
 
 

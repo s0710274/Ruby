@@ -17,6 +17,12 @@ describe Kosmine_stotis do
     @kosmine_stotis.should respond_to(:vietos)
   end
 
+  it "should have unique id" do
+    @kosmine_stotis.should respond_to(:id)
+    stotis = Kosmine_stotis.new('space station', 1234, 20)
+    @kosmine_stotis.id.should_not == stotis.id
+  end
+
 
 end
 

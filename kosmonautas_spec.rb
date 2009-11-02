@@ -1,7 +1,6 @@
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
 
 require 'kosmonautas'
+
 
 describe Kosmonautas do
    before(:each) do
@@ -34,6 +33,15 @@ describe Kosmonautas do
 
   it "should be centre, erdvelaivyje, kosmineje stotyje arba else" do
     @kosmonautas.vieta.should match(/Centras|Erdvelaivis|Stotis|Else/i)
+  end
+
+  it "should have ID" do
+    @kosmonautas.should respond_to(:id)
+  end
+
+  it "should have unique ID" do
+    kosmonautas2 = Kosmonautas.new('Tomas', 'Boka', '1200-11-22', 'Vyras')
+    @kosmonautas.id.should_not == kosmonautas2.id
   end
 
 
