@@ -22,11 +22,11 @@ describe Erdvelaivis do
   end
 
   it "should have kosmonautu skaicius" do
-    @erdvelaivis.should respond_to(:kosmonautu_sk)
+    @erdvelaivis.should respond_to(:keleiviai)
   end
 
   it "should be zemeje, pakiles, skrenda arba else" do
-    @erdvelaivis.busena.should match(/Zemeje|Pakiles|Skrenda|Else/i)
+    @erdvelaivis.busena.should match(/Zeme|Kosmosas|Stotis|Else/i)
   end
 
   it "should have unique id" do
@@ -35,7 +35,10 @@ describe Erdvelaivis do
     @erdvelaivis.id.should_not == erdvelaivis2.id
   end
   
-
+  it "should have 0 kosmonautai kai sukuriamas" do
+    erdvelaivis2 = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    erdvelaivis2.keleiviai.should be_empty
+  end
 
 
 end
