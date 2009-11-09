@@ -1,0 +1,52 @@
+tema: kosmonautai ir kosminiai skrydziai
+
+esybes: 
+Kosmonautas
+Sveikatos centras
+Erdvelaivis
+Kosmine stotis
+Naudotojas
+
+savybes:
+Naudotojas gali sukurti kosmonauta 
+Naudotojas gali sukurti sveikatos centra 
+Naudotojas gali sukurti erdvelaivi
+Naudotojas gali sukurti kosmine stoti 
+Naudotojas gali panaikinti kosmonauta
+Naudotojas gali panaikinti sveikatos centra
+Naudotojas gali panaikinti erdvelaivi
+Naudotojas gali panaikinti kosmine stoti
+Naudotojas gali ilaipinti kosmonauta i erdvelaivi
+Naudotojas gali islaipinti kosmonauta is erdvelaivio
+Naudotojas gali paleisti erdvelaivi skristi
+
+kosmonautas gali ilipti i erdvelaivi
+kosmonautas gali islipti is erdvelaivio
+kosmonautas gali ieiti i kosmine stoti
+kosmonautas gali iseiti is kosmines stoties
+kosmonautas gali ieiti i sveikatos centra
+kosmonautas gali iseiti is sveikatos centro
+kosmonautas gali zuti
+kosmonautas gali buti ilipes tik i viena erdvelaivi
+kosmonautas negali ilipti i erdvelaivi, jeigu jame nebera vietos
+kosmonautas negali ieiti i kosmine/islipti is erdvelaivio, jeigu kosmineje stotyje nera vietos
+kosmonautas negali skristi, jeigu jo sveikata yra bloga (<70%)
+kosmonautas gali pasveikti sveikatos centre
+kosmonautas gali atlikti skaiciavimus
+kosmonautas gali iseiti  atvira erdve(kosmosa)
+kosmonautas gali grizti i kosmine stoti(is kosmoso)
+kosmonautas gali taisyti kosmine stoti
+
+erdvelaivis gali grizti i zeme
+erdvelaivis gali nuskristi iki kosmines stoties
+erdvelaivis gali nukristi, jeigu jam baigiasi kuras
+i erdvelaivi gali ilipti ne daugiau kosmonautu nei nurodyta erdvelaivyje
+erdvelaivis negali skristi be kosmonauto
+erdvelaiviui nukritus, jo kosmonautai turi zuti 
+
+sveikatos centras gali gydyti kosmonauta
+sveikatos centras gali istirti kosmonauto sveikata
+sveikatos centras negali gydyti daugiau kosmonautu negu jame yra vietu
+
+i kosmine stoti gali ilipti ne daugiau kosmonautu nei nurodyta kosmineje stotyje
+
