@@ -34,7 +34,7 @@ describe Naudotojas do
   end
 
   it 'should be able to prideti centra' do
-    centras = Centras.new('poliklinika', 15, 3)
+    centras = Centras.new('poliklinika', 15)
     @user.should respond_to(:add_centras)
     @user.add_centras(centras)
     @user.centrai[centras.id].should be_instance_of(Centras)
@@ -55,7 +55,7 @@ describe Naudotojas do
   end
 
   it 'should be able to istrinti centra' do
-    centras = Centras.new('poliklinika', 15, 3)
+    centras = Centras.new('poliklinika', 15)
     @user.should respond_to(:istrinti_centra)
     @user.add_centras(centras)
     @user.istrinti_centra(centras)
@@ -262,17 +262,6 @@ describe Naudotojas do
     kosmonautas.vieta.should == 'Zuves'    
   end
 
-
-
-
-
-  
-#paimsim pagal stoties id, atstuma
-#iskviesim skridima
-#jeigu esam stotyje, tai skrendam namo
-#paskaiciuojam ar uzteks kuro
-
-  #jei erdvelaivis nukrito, tai sutvarkom kosmonautus ir erdvelaivi
 
   
 end

@@ -19,5 +19,14 @@ class Kosmonautas
     @bukle = @bukle - 10
   end
 
+  def skaiciuoti(sk1, sk2)
+    ats = sk1 * sk2 - sk2 * 3
+    return ats
+  end
+
+  def ar_gali_skristi()
+    return @bukle
+  end
+
   
 end

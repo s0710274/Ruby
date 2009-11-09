@@ -48,6 +48,7 @@ class Naudotojas
   
   def isodinti_kosmonauta(k_id, e_id)
     if @kosmonautai[k_id].bukle > 70
+      #reikia patikrinti ar yra toks laivas ir kosmonautas
       #ziuri ar kosmonautas nera ilipes i kita laiva
       @erdvelaiviai.each do |laivas|
       if laivas != nil
@@ -97,6 +98,7 @@ class Naudotojas
       tikslas = 'Stotis'
     else
       tikslas = 'Zeme'
+      #parskridus namo turi pavargti
     end
     @erdvelaiviai[e_id].skristi(atstumas, kuras, tikslas)
     if erdvelaiviai[e_id].busena == 'Nukrites'

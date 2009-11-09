@@ -1,5 +1,7 @@
 
 require 'kosmonautas'
+require 'matchers'
+
 
 
 describe Kosmonautas do
@@ -58,7 +60,13 @@ describe Kosmonautas do
     @kosmonautas.bukle.should <= 100    
   end
 
-  
+  it "should be able to atlikti skaiciavimus" do
+    @kosmonautas.skaiciuoti(10, 2).should priklausyti_intervalui(100)
+  end
+
+  it "should be able to pasitikrinti ar gali skristi" do
+    @kosmonautas.ar_gali_skristi.should daugiau_uz_leistina()
+  end
 
   
 end

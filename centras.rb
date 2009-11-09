@@ -1,8 +1,8 @@
 class Centras
-  def initialize(pavadinimas, vietos, ligoniai)
+  def initialize(pavadinimas, vietos)
     @pavadinimas = pavadinimas
     @vietu_sk = vietos
-    @ligoniu_sk = ligoniai
+    @ligoniu_sk = 0
     @id = (@@id_counter += 1)
   end
 

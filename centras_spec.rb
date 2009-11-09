@@ -1,11 +1,9 @@
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
 
 require 'centras'
 
 describe Centras do
   before(:each) do
-    @centras = Centras.new('ssc', 20, 3)
+    @centras = Centras.new('ssc', 20)
   end
 
   it "should have pavadinimas" do
@@ -25,7 +23,7 @@ describe Centras do
   end
 
   it "should have unique ID" do
-    centras2 = Centras.new('Ligonine', 10, 5)
+    centras2 = Centras.new('Ligonine', 10)
     @centras.id.should_not == centras2.id
   end
   
