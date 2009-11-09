@@ -36,7 +36,7 @@ describe Kosmonautas do
   end
 
   it "should be centre, erdvelaivyje, kosmineje stotyje arba else" do
-    @kosmonautas.vieta.should match(/Zeme|Erdvelaivis|Stotis|Else/i)
+    @kosmonautas.vieta.should match(/Zeme|Erdvelaivis|Stotis|Else|Zuves/i)
   end
 
   it "should have ID" do

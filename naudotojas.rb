@@ -2,7 +2,6 @@ require 'kosmonautas'
 require 'kosmine_stotis'
 require 'erdvelaivis'
 require 'centras'
-require 'skrydis'
 
 
 class Naudotojas
@@ -11,10 +10,9 @@ class Naudotojas
     @centrai = []
     @erdvelaiviai = []
     @stotys = []
-    @skrydziai = []
   end
 
-  attr_accessor :kosmonautai, :stotys, :centrai, :erdvelaiviai, :skrydziai
+  attr_accessor :kosmonautai, :stotys, :centrai, :erdvelaiviai
   
   def add_kosmonautas(kosmonautas)
     @kosmonautai[kosmonautas.id] = kosmonautas
@@ -31,11 +29,7 @@ class Naudotojas
   def add_stotis(stotis)
     @stotys[stotis.id] = stotis
   end
-
-  def add_skrydis(skrydis)
-    @skrydziai[skrydis.id] = skrydis
-  end
-
+  
   def istrinti_centra(centras)
     @centrai[centras.id] = nil
   end
@@ -51,13 +45,19 @@ class Naudotojas
   def istrinti_kosmonauta(kosmonautas)
     @kosmonautai[kosmonautas.id] = nil
   end
-
-  def istrinti_skrydi(skrydis)
-    @skrydziai[skrydis.id] = nil
-  end
-
+  
   def isodinti_kosmonauta(k_id, e_id)
     if @kosmonautai[k_id].bukle > 70
+      #ziuri ar kosmonautas nera ilipes i kita laiva
+      @erdvelaiviai.each do |laivas|
+      if laivas != nil
+        if laivas.keleiviai.include?(k_id)
+          raise "kosmonautas jau ilipes i kita laiva"
+          return  #jei kosmonautas jau kitam laive
+          end
+        end
+      end
+      #ar telpa kosmonautas i laiva
       if @erdvelaiviai[e_id].keleiviai.length < @erdvelaiviai[e_id].vietos
         @erdvelaiviai[e_id].keleiviai.push(k_id)
         @kosmonautai[k_id].vieta = 'Erdvelaivis'
@@ -70,13 +70,14 @@ class Naudotojas
   end
   
   def islaipinti_kosmonauta(k_id)
+    #nebaigta, kai islaipinam i stoti reikia patikrinti ar yra laisvu vietu
     @erdvelaiviai.each do |laivas|
       if laivas != nil
         if laivas.keleiviai.include?(k_id)
           @erdvelaiviai[laivas.id].keleiviai.delete(k_id)
           if @erdvelaiviai[laivas.id].busena == 'Zeme'
             @kosmonautai[k_id].vieta = 'Zeme'
-          elsif @erdvelaiviai[laivas.id].busena == 'Stotis'#sitas nepadengtas
+          elsif @erdvelaiviai[laivas.id].busena == 'Stotis'
             @kosmonautai[k_id].vieta = 'Stotis'
           end
           return  #kai suradom kuri kosmonauta islaipinti, tai iseinam
@@ -85,5 +86,34 @@ class Naudotojas
     end
     raise "kosmonautas nera ilipes i joki laiva"
   end
+
+  def paleisti_laiva(e_id, s_id, kuras)
+    if @erdvelaiviai[e_id].keleiviai.empty?      
+      raise "Norima paleisti tuscia laiva"
+      return
+    end
+    atstumas = @stotys[s_id].atstumas
+    if @erdvelaiviai[e_id].busena == 'Zeme'
+      tikslas = 'Stotis'
+    else
+      tikslas = 'Zeme'
+    end
+    @erdvelaiviai[e_id].skristi(atstumas, kuras, tikslas)
+    if erdvelaiviai[e_id].busena == 'Nukrites'
+      @erdvelaiviai[e_id].keleiviai.each do |keleivis|
+        if keleivis != nil
+          @kosmonautai[keleivis].vieta = 'Zuves'
+        end
+      end
+      raise "erdvelaivis nukrito ir kosmonautai zuvo"
+    end
+    
+    
+
+    
+  end
+  
+
+
 
 end

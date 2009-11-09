@@ -25,11 +25,7 @@ describe Naudotojas do
   it "should have erdvelaiviai" do
     @user.should respond_to(:erdvelaiviai)
   end
-
-  it "should have skrydziai" do
-    @user.should respond_to(:skrydziai)
-  end
-
+  
   it 'should be able to prideti kosmonauta' do
     kosmonautas = Kosmonautas.new('vardenis', 'pavardenis', '1977-01-02', 'Vyras', 50)
     @user.should respond_to(:add_kosmonautas)
@@ -45,7 +41,7 @@ describe Naudotojas do
   end
 
   it 'should be able to prideti erdvelaivi' do
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
     @user.should respond_to(:add_erdvelaivis)
     @user.add_erdvelaivis(erdvelaivis)
     @user.erdvelaiviai[erdvelaivis.id].should be_instance_of(Erdvelaivis)
@@ -58,13 +54,6 @@ describe Naudotojas do
     @user.stotys[stotis.id].should be_instance_of(Kosmine_stotis)
   end
 
-  it 'should be able to prideti skrydis' do
-    skrydis = Skrydis.new()
-    @user.should respond_to(:add_skrydis)
-    @user.add_skrydis(skrydis)
-    @user.skrydziai[skrydis.id].should be_instance_of(Skrydis)
-  end
-
   it 'should be able to istrinti centra' do
     centras = Centras.new('poliklinika', 15, 3)
     @user.should respond_to(:istrinti_centra)
@@ -74,7 +63,7 @@ describe Naudotojas do
   end
 
   it 'should be able to istrinti erdvelaivi' do
-    laivas = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    laivas = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
     @user.should respond_to(:istrinti_erdvelaivi)
     @user.add_erdvelaivis(laivas)
     @user.istrinti_erdvelaivi(laivas)
@@ -97,17 +86,9 @@ describe Naudotojas do
     @user.kosmonautai.should_not include(kosmonautas)
   end
 
-  it 'should be able to istrinti skrydi' do
-    skrydis = Skrydis.new()
-    @user.should respond_to(:istrinti_skrydi)
-    @user.add_skrydis(skrydis)
-    @user.istrinti_skrydi(skrydis)
-    @user.skrydziai.should_not include(skrydis)
-  end
-
   it "should be able to isodinti kosmonauta i kosmini laiva" do
     kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
     @user.add_kosmonautas(kosmonautas)
     @user.add_erdvelaivis(erdvelaivis)
     kosmonautas.bukle.should > 70 #kai bukle >70 tada galima skristi
@@ -118,7 +99,7 @@ describe Naudotojas do
 
   it "should raise exeption 'kosmonautas blogai jauciasi' jeigu bukele <= 70" do
     kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 60)
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
     @user.add_kosmonautas(kosmonautas)
     @user.add_erdvelaivis(erdvelaivis)
     lambda {
@@ -128,18 +109,17 @@ describe Naudotojas do
 
   it "should let isodinti kosmonauta, jeigu laive yra vietos" do
     kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 1, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 1, 3000, 200)
     @user.add_kosmonautas(kosmonautas)
     @user.add_erdvelaivis(erdvelaivis)
     @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
     erdvelaivis.keleiviai.length.should <= erdvelaivis.vietos
   end
 
-  #ar yra tikrinama ar prisidejo prie uzimamu vietu?
 
   it "should raise exeption 'kosmonautas netelpa i laiva" do
     kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 0, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 0, 3000, 200)
     @user.add_kosmonautas(kosmonautas)
     @user.add_erdvelaivis(erdvelaivis)
     lambda {
@@ -150,7 +130,7 @@ describe Naudotojas do
 
   it "should be able to islaipinti kosmonauta" do
     kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
     @user.add_kosmonautas(kosmonautas)
     @user.add_erdvelaivis(erdvelaivis)
     @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
@@ -166,22 +146,134 @@ describe Naudotojas do
     }.should raise_error    
   end
 
-  it "should change kosmonauto buvimo vieta islipus" do
+  it "should change kosmonauto buvimo vieta islipus i zeme jei laivas nusileides" do
     kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
-    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    erdvelaivis.busena = 'Zeme'
     @user.add_kosmonautas(kosmonautas)
     @user.add_erdvelaivis(erdvelaivis)
     @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
     @user.islaipinti_kosmonauta(kosmonautas.id)
-    kosmonautas.vieta.should priklausyti('Zeme', 'Stotis')
+    kosmonautas.vieta.should == 'Zeme'
+  end
+
+  it "should change kosmonauto buvimo vieta islipus i stotis jei laivas stotyje" do
+    kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    erdvelaivis.busena = 'Stotis'
+    @user.add_kosmonautas(kosmonautas)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
+    @user.islaipinti_kosmonauta(kosmonautas.id)
+    kosmonautas.vieta.should == 'Stotis'
+  end
+
+  it "should not allow to isodinti kosmonauta, jeigu jis jau yra kitame laive" do
+    kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    erdvelaivis2 = Erdvelaivis.new('C34-52D', '2001-01-12', 12, 3000, 200)
+    @user.add_kosmonautas(kosmonautas)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_erdvelaivis(erdvelaivis2)
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
+    lambda {
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis2.id)
+    }
+    @user.erdvelaiviai[erdvelaivis2.id].keleiviai.should_not include(kosmonautas.id)
+  end
+
+  it "should raise error 'kosmonautas jau ilipes i kita laiva'" do
+    kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    erdvelaivis2 = Erdvelaivis.new('C34-52D', '2001-01-12', 12, 3000, 200)
+    @user.add_kosmonautas(kosmonautas)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_erdvelaivis(erdvelaivis2)
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
+    lambda {
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis2.id)
+    }.should raise_error
+  end
+
+  it "should be able to nuskristi i stoti" do
+    kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    stotis = Kosmine_stotis.new('space station', 123, 20)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_kosmonautas(kosmonautas)
+    @user.add_stotis(stotis)
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
+    kuras = 10000
+    @user.paleisti_laiva(erdvelaivis.id, stotis.id, kuras)
+    erdvelaivis.busena.should == 'Stotis'
+  end
+
+  it "should be able to nuskristi i zeme" do
+    kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    stotis = Kosmine_stotis.new('space station', 123, 20)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_kosmonautas(kosmonautas)
+    @user.add_stotis(stotis)
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
+    kuras = 10000
+    @user.paleisti_laiva(erdvelaivis.id, stotis.id, kuras)#nuskrendam i stoti
+    @user.paleisti_laiva(erdvelaivis.id, stotis.id, kuras)#turim grizti atgal
+    erdvelaivis.busena.should == 'Zeme'
+  end
+
+  it "should not let to paleisti laiva, kai jame nera kosmonautu" do
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    stotis = Kosmine_stotis.new('space station', 123, 20)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_stotis(stotis)
+    kuras = 10000
+    pradine_busena = erdvelaivis.busena
+    lambda{
+    @user.paleisti_laiva(erdvelaivis.id, stotis.id, kuras)   
+    }
+    erdvelaivis.busena.should == pradine_busena
+  end
+
+  it "should raise error 'norima paleisti tuscia laiva'" do
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    stotis = Kosmine_stotis.new('space station', 123, 20)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_stotis(stotis)
+    kuras = 10000
+    pradine_busena = erdvelaivis.busena
+    lambda{
+    @user.paleisti_laiva(erdvelaivis.id, stotis.id, kuras)
+    }.should raise_error
+  end
+
+  it "should raise error jei erdvelaivis nukrito ir pakeisti kosmonautu busenas i 'Zuves'" do
+    kosmonautas = Kosmonautas.new('Vardenis', 'Pavardenis', '1970-10-10', 'Vyras', 80)
+    erdvelaivis = Erdvelaivis.new('C34-5D', '2001-01-12', 12, 3000, 200)
+    stotis = Kosmine_stotis.new('space station', 123, 20)
+    @user.add_erdvelaivis(erdvelaivis)
+    @user.add_kosmonautas(kosmonautas)
+    @user.add_stotis(stotis)
+    @user.isodinti_kosmonauta(kosmonautas.id, erdvelaivis.id)
+    kuras = 0 #be kuro, kad nukristu
+    lambda{
+      @user.paleisti_laiva(erdvelaivis.id, stotis.id, kuras)
+    }.should raise_error
+    kosmonautas.vieta.should == 'Zuves'    
   end
 
 
-#islipus is laivo pasikeicia kosmonauto busena
 
 
 
-  #vienu metu kosmonautas gali buti tik viename laive
+  
+#paimsim pagal stoties id, atstuma
+#iskviesim skridima
+#jeigu esam stotyje, tai skrendam namo
+#paskaiciuojam ar uzteks kuro
 
+  #jei erdvelaivis nukrito, tai sutvarkom kosmonautus ir erdvelaivi
+
+  
 end
 

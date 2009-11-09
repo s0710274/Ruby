@@ -6,7 +6,7 @@ class Kosmonautas
     @pavarde = pavarde
     @gim_data = gim_data
     @lytis = lytis
-    @vieta = 'Else' #Zeme|Erdvelaivis|Stotis|Else
+    @vieta = 'Else' #Zeme|Erdvelaivis|Stotis|Else|Zuves
     @id = (@@id_counter += 1)
     @bukle = bukle # nurodoma procentais
   end
