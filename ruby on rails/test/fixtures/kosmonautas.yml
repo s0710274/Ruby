@@ -1,0 +1,29 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  vardas: MyString
+  pavarde: MyString
+  gimimo_data: 2009-12-07
+  lytis: MyString
+  vieta: MyString
+  bukle: 1
+  erdvelaivio_id: 1
+  stoties_id: 1
+  centro_id: 1
+  erdvelaivis: 
+  stotis: 
+  centras: 
+
+two:
+  vardas: MyString
+  pavarde: MyString
+  gimimo_data: 2009-12-07
+  lytis: MyString
+  vieta: MyString
+  bukle: 1
+  erdvelaivio_id: 1
+  stoties_id: 1
+  centro_id: 1
+  erdvelaivis: 
+  stotis: 
+  centras: 

@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+ pirmas:
+   vardas: Jonas
+   pavarde: Miskinis
+   Gimimo_data: 1975-11-21
+   Lytis: "Vyras"
+   Vieta: "Zeme"
+   Bukle: 100
+   erdvelaivis_id: 0
+   stotis_id: 0
+   Centras_id: 0
+   
+
+ #two:
+ #  column: value

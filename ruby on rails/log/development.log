@@ -1,0 +1,321 @@
+  [4;36;1mSQL (16.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCentras (20091207162538)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "centras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091207162538')[0m
+Migrating to CreateErdvelaivis (20091207162552)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "erdvelaivis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "modelis" varchar(255), "pagaminimo_data" date, "vietos" integer, "greitis" integer, "busena" varchar(255), "kuro_sanaudos" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091207162552')[0m
+Migrating to CreateKosmonautas (20091207162609)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "kosmonautas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vardas" varchar(255), "pavarde" varchar(255), "gimimo_data" date, "lytis" varchar(255), "vieta" varchar(255), "bukle" integer, "erdvelaivis_id" integer, "stotis_id" integer, "centras_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091207162609')[0m
+Migrating to CreateStotis (20091207162625)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "stotis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091207162625')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("centras")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("erdvelaivis")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("kosmonautas")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("stotis")[0m
+  [4;36;1mCentras Create (0.0ms)[0m   [0;1mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 16:30:14', NULL, NULL, NULL, '2009-12-07 16:30:14')[0m
+  [4;35;1mKosmonautas Create (0.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 16:30:23', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:30:23')[0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 16:30:55', NULL, NULL, NULL, NULL, 2, NULL, NULL, '2009-12-07 16:30:55')[0m
+  [4;35;1mErdvelaivis Load (0.0ms)[0m   [0mSELECT * FROM "erdvelaivis" [0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 16:38:34', NULL, NULL, NULL, NULL, 1, NULL, NULL, '2009-12-07 16:38:34')[0m
+  [4;35;1mKosmonautas Create (0.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 16:38:46', NULL, NULL, NULL, NULL, 1, NULL, NULL, '2009-12-07 16:38:46')[0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 16:38:52', NULL, NULL, NULL, NULL, 5, NULL, NULL, '2009-12-07 16:38:52')[0m
+  [4;35;1mKosmonautas Load (15.0ms)[0m   [0mSELECT * FROM "kosmonautas" [0m
+  [4;36;1mErdvelaivis Create (0.0ms)[0m   [0;1mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:11', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:11')[0m
+  [4;35;1mErdvelaivis Create (0.0ms)[0m   [0mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:12', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:12')[0m
+  [4;36;1mErdvelaivis Create (0.0ms)[0m   [0;1mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:12', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:12')[0m
+  [4;35;1mErdvelaivis Create (0.0ms)[0m   [0mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:13', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:13')[0m
+  [4;36;1mErdvelaivis Create (0.0ms)[0m   [0;1mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:13', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:13')[0m
+  [4;35;1mErdvelaivis Create (0.0ms)[0m   [0mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:13', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:13')[0m
+  [4;36;1mErdvelaivis Create (0.0ms)[0m   [0;1mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 16:59:14', NULL, NULL, NULL, NULL, NULL, '2009-12-07 16:59:14')[0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT "kosmonautas".* FROM "kosmonautas" INNER JOIN "erdvelaivis" ON "erdvelaivis".id = "kosmonautas".erdvelaivis_id [0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 17:01:10', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 17:01:10')[0m
+  [4;35;1mKosmonautas Create (0.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 17:01:11', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 17:01:11')[0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 17:01:12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 17:01:12')[0m
+  [4;35;1mKosmonautas Create (0.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 17:01:13', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 17:01:13')[0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 17:01:36', NULL, NULL, NULL, NULL, 2, NULL, NULL, '2009-12-07 17:01:36')[0m
+  [4;35;1mKosmonautas Load (16.0ms)[0m   [0mSELECT "kosmonautas".* FROM "kosmonautas" INNER JOIN "erdvelaivis" ON "erdvelaivis".id = "kosmonautas".erdvelaivis_id [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" [0m
+  [4;35;1mKosmonautas Load (31.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE ("kosmonautas"."erdvelaivis_id" = 2) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE ("kosmonautas"."erdvelaivis_id" = 2) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE ("kosmonautas"."erdvelaivis_id" = 2) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (:erdvelaivis_id > 2) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (:erdvelaivis_id > 1) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (:erdvelaivis_id > 0) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (:erdvelaivis_id < 0) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (:erdvelaivis_id <> NULL) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id = 2) [0m
+  [4;36;1mKosmonautas Load (16.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id = 2) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id = NULL) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id <> NULL) [0m
+  [4;35;1mKosmonautas Load (16.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id > 1) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id <> 1) [0m
+  [4;35;1mKosmonautas Load (15.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id <> NULL) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id <> NULL) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id <> NULL) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSQLite3::SQLException: near "Nil": syntax error: SELECT * FROM "kosmonautas" WHERE (erdvelaivis_id IS Nil) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id IS NULL) [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id = NULL) [0m
+  [4;35;1mKosmonautas Load (0.0ms)[0m   [0mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id == NULL) [0m
+  [4;36;1mKosmonautas Load (16.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" WHERE (erdvelaivis_id is NULL) [0m
+  [4;35;1mCentras Create (0.0ms)[0m   [0mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 18:13:30', NULL, NULL, NULL, '2009-12-07 18:13:30')[0m
+  [4;36;1mCentras Load (0.0ms)[0m   [0;1mSELECT * FROM "centras" [0m
+  [4;35;1mCentras Load (0.0ms)[0m   [0mSELECT * FROM "centras" [0m
+  [4;36;1mCentras Create (16.0ms)[0m   [0;1mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 18:13:53', NULL, NULL, NULL, '2009-12-07 18:13:53')[0m
+  [4;35;1mCentras Load (0.0ms)[0m   [0mSELECT * FROM "centras" [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "centras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "erdvelaivis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "modelis" varchar(255), "pagaminimo_data" date, "vietos" integer, "greitis" integer, "busena" varchar(255), "kuro_sanaudos" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "kosmonautas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vardas" varchar(255), "pavarde" varchar(255), "gimimo_data" date, "lytis" varchar(255), "vieta" varchar(255), "bukle" integer, "erdvelaivis_id" integer, "stotis_id" integer, "centras_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "stotis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (15.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162625')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162538')[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162552')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162609')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "centras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mCREATE TABLE "erdvelaivis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "modelis" varchar(255), "pagaminimo_data" date, "vietos" integer, "greitis" integer, "busena" varchar(255), "kuro_sanaudos" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "kosmonautas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vardas" varchar(255), "pavarde" varchar(255), "gimimo_data" date, "lytis" varchar(255), "vieta" varchar(255), "bukle" integer, "erdvelaivis_id" integer, "stotis_id" integer, "centras_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mCREATE TABLE "stotis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162625')[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162538')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162552')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162609')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "centras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "erdvelaivis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "modelis" varchar(255), "pagaminimo_data" date, "vietos" integer, "greitis" integer, "busena" varchar(255), "kuro_sanaudos" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mCREATE TABLE "kosmonautas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vardas" varchar(255), "pavarde" varchar(255), "gimimo_data" date, "lytis" varchar(255), "vieta" varchar(255), "bukle" integer, "erdvelaivis_id" integer, "stotis_id" integer, "centras_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "stotis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162625')[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162538')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162552')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162609')[0m
+  [4;36;1mCentras Create (94.0ms)[0m   [0;1mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 18:47:14', NULL, NULL, NULL, '2009-12-07 18:47:14')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "centras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "erdvelaivis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "modelis" varchar(255), "pagaminimo_data" date, "vietos" integer, "greitis" integer, "busena" varchar(255), "kuro_sanaudos" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "kosmonautas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vardas" varchar(255), "pavarde" varchar(255), "gimimo_data" date, "lytis" varchar(255), "vieta" varchar(255), "bukle" integer, "erdvelaivis_id" integer, "stotis_id" integer, "centras_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "stotis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (15.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162625')[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162538')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162552')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162609')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "centras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "erdvelaivis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "modelis" varchar(255), "pagaminimo_data" date, "vietos" integer, "greitis" integer, "busena" varchar(255), "kuro_sanaudos" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "kosmonautas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vardas" varchar(255), "pavarde" varchar(255), "gimimo_data" date, "lytis" varchar(255), "vieta" varchar(255), "bukle" integer, "erdvelaivis_id" integer, "stotis_id" integer, "centras_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mCREATE TABLE "stotis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pavadinimas" varchar(255), "vietu_skaicius" integer, "ligoniu_skaicius" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162625')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162538')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091207162552')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091207162609')[0m
+  [4;35;1mCentras Create (31.0ms)[0m   [0mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 21:11:00', NULL, NULL, NULL, '2009-12-07 21:11:00')[0m
+  [4;36;1mKosmonautas Load (500.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" [0m
+  [4;35;1mKosmonautas Create (31.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:40:47', NULL, NULL, NULL, NULL, NULL, 1977, NULL, '2009-12-07 21:40:47')[0m
+  [4;36;1mKosmonautas Create (32.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:41:08', NULL, NULL, NULL, NULL, NULL, '1999-10-12', NULL, '2009-12-07 21:41:08')[0m
+  [4;35;1mKosmonautas Create (16.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:41:20', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 21:41:20')[0m
+  [4;36;1mKosmonautas Create (15.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:41:34', NULL, NULL, NULL, NULL, NULL, '1999-02-12', NULL, '2009-12-07 21:41:34')[0m
+  [4;35;1mKosmonautas Create (0.0ms)[0m   [0mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:41:49', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 21:41:49')[0m
+  [4;36;1mKosmonautas Load (625.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" [0m
+  [4;35;1mKosmonautas Load (125.0ms)[0m   [0mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;36;1mKosmonautas Destroy (0.0ms)[0m   [0;1mDELETE FROM "kosmonautas" WHERE "id" = 1[0m
+  [4;35;1mKosmonautas Load (141.0ms)[0m   [0mSELECT * FROM "kosmonautas" [0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (16.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 2[0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (15.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 3[0m
+  [4;36;1mKosmonautas Load (16.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (0.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 4[0m
+  [4;36;1mKosmonautas Load (31.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (16.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 5[0m
+  [4;36;1mKosmonautas Load (15.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (16.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 6[0m
+  [4;36;1mKosmonautas Load (15.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (0.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 7[0m
+  [4;36;1mKosmonautas Load (31.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (0.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 8[0m
+  [4;36;1mKosmonautas Load (0.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" LIMIT 1[0m
+  [4;35;1mKosmonautas Destroy (0.0ms)[0m   [0mDELETE FROM "kosmonautas" WHERE "id" = 9[0m
+  [4;36;1mKosmonautas Load (93.0ms)[0m   [0;1mSELECT * FROM "kosmonautas" [0m

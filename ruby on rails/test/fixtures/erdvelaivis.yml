@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  modelis: MyString
+  pagaminimo_data: 2009-12-07
+  vietos: 1
+  greitis: 1
+  busena: MyString
+  kuro_sanaudos: 1.5
+  kosmonautas: 
+
+two:
+  modelis: MyString
+  pagaminimo_data: 2009-12-07
+  vietos: 1
+  greitis: 1
+  busena: MyString
+  kuro_sanaudos: 1.5
+  kosmonautas: 

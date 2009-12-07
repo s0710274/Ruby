@@ -1,0 +1,828 @@
+Unable to load centra, underlying cause no such file to load -- centra 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load erdvelaivi, underlying cause no such file to load -- erdvelaivi 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load stoti, underlying cause no such file to load -- stoti 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load centra, underlying cause no such file to load -- centra 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load erdvelaivi, underlying cause no such file to load -- erdvelaivi 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load stoti, underlying cause no such file to load -- stoti 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load centra, underlying cause no such file to load -- centra 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load erdvelaivi, underlying cause no such file to load -- erdvelaivi 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load stoti, underlying cause no such file to load -- stoti 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load centra, underlying cause no such file to load -- centra 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load erdvelaivi, underlying cause no such file to load -- erdvelaivi 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load stoti, underlying cause no such file to load -- stoti 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./test/test_helper.rb:35
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/centras_test.rb:1
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 20:46:32', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 20:46:32')[0m
+  [4;35;1mErdvelaivis Create (0.0ms)[0m   [0mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 20:46:32', NULL, NULL, NULL, NULL, NULL, '2009-12-07 20:46:32')[0m
+  [4;36;1mStotis Create (0.0ms)[0m   [0;1mINSERT INTO "stotis" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 20:46:32', NULL, NULL, NULL, '2009-12-07 20:46:32')[0m
+  [4;35;1mCentras Create (0.0ms)[0m   [0mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 20:46:32', NULL, NULL, NULL, '2009-12-07 20:46:32')[0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:02:53', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 21:02:53')[0m
+  [4;35;1mErdvelaivis Create (0.0ms)[0m   [0mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 21:02:53', NULL, NULL, NULL, NULL, NULL, '2009-12-07 21:02:53')[0m
+  [4;36;1mStotis Create (0.0ms)[0m   [0;1mINSERT INTO "stotis" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 21:02:53', NULL, NULL, NULL, '2009-12-07 21:02:53')[0m
+  [4;35;1mCentras Create (0.0ms)[0m   [0mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 21:02:53', NULL, NULL, NULL, '2009-12-07 21:02:53')[0m
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:50:01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 21:50:01')[0m
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+  [4;36;1mKosmonautas Create (0.0ms)[0m   [0;1mINSERT INTO "kosmonautas" ("pavarde", "centras_id", "updated_at", "vieta", "stotis_id", "bukle", "vardas", "erdvelaivis_id", "gimimo_data", "lytis", "created_at") VALUES(NULL, NULL, '2009-12-07 21:50:50', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-12-07 21:50:50')[0m
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec/models/kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec/models/kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/bin/spec:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rcov-0.8.1.1.0-x86-mswin32/bin/rcov:554:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rcov-0.8.1.1.0-x86-mswin32/bin/rcov:554
+C:/Ruby/bin/rcov:19:in `load'
+C:/Ruby/bin/rcov:19
+  [4;36;1mErdvelaivis Create (0.0ms)[0m   [0;1mINSERT INTO "erdvelaivis" ("modelis", "updated_at", "greitis", "pagaminimo_data", "kuro_sanaudos", "busena", "vietos", "created_at") VALUES(NULL, '2009-12-07 22:16:03', NULL, NULL, NULL, NULL, NULL, '2009-12-07 22:16:03')[0m
+  [4;35;1mStotis Create (0.0ms)[0m   [0mINSERT INTO "stotis" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 22:16:03', NULL, NULL, NULL, '2009-12-07 22:16:03')[0m
+  [4;36;1mCentras Create (0.0ms)[0m   [0;1mINSERT INTO "centras" ("updated_at", "pavadinimas", "ligoniu_skaicius", "vietu_skaicius", "created_at") VALUES('2009-12-07 22:16:03', NULL, NULL, NULL, '2009-12-07 22:16:03')[0m
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:5
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonautai, underlying cause no such file to load -- kosmonautai 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonautai, underlying cause no such file to load -- kosmonautai 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10
+Unable to load kosmonauta, underlying cause no such file to load -- kosmonauta 
+
+ C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:158:in `require'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:265:in `require_or_load'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:853:in `try_to_load_dependency'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/fixtures.rb:848:in `fixtures'
+./spec\models\kosmonautas_spec.rb:4
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `module_eval'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:183:in `subclass'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:55:in `describe'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_factory.rb:31:in `create_example_group'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/dsl/main.rb:28:in `describe'
+./spec\models\kosmonautas_spec.rb:3
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:147:in `load'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:15:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:132:in `run_examples'
+C:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+script/spec:10

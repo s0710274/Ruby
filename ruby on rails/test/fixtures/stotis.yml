@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  pavadinimas: MyString
+  vietu_skaicius: 1
+  ligoniu_skaicius: 1
+  kosmonautas: 
+
+two:
+  pavadinimas: MyString
+  vietu_skaicius: 1
+  ligoniu_skaicius: 1
+  kosmonautas: 
